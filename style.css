@@ -1,0 +1,362 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.section-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 55px;
+}
+
+.section-1-container {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(219, 200, 200);
+}
+
+.section-1-all-text {
+    height: 400px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-title {
+    font-size: 70px;
+}
+
+.section-1-description {
+    font-size: 20px;
+    color: white;
+    margin: 20px 20px 50px 20px;
+}
+
+.donate-btn {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(255, 115, 0);
+    padding: 20px 40px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.donate-btn:hover {
+    background-color: rgba(255, 115, 0, 0.616);
+    color: black;
+}
+
+.section-2-container {
+    text-align: center;
+}
+
+.section-2-all-item {
+    height: 500px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2-title {
+    margin-bottom: 30px;
+}
+
+.section-2-description {
+    font-size: 20px;
+    margin: 30px;
+}
+
+.all-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.box {
+    height: 80px;
+    width: 150px;
+    background-color: rgba(128, 128, 128, 0.075);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.box:hover {
+    background-color: rgba(255, 115, 0, 0.24);
+    border: 1px solid rgb(255, 115, 0);
+    cursor: pointer;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-form {
+    margin: 20px 20px 50px 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+input[type=number] {
+    width: 100%;
+    height: 50px;
+    padding: 12px 30% 12px 35%;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-btn-2 {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(255, 115, 0);
+    padding: 20px 40px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.donate-btn-2:hover {
+    background-color: rgba(255, 115, 0, 0.363);
+    color: black;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.section-3-container {
+    text-align: center;
+}
+
+.section-3-all-item {
+    height: 500px;
+    width: 1100px;
+    text-align: center;
+}
+
+.section-3-title {
+    margin-bottom: 5px;
+}
+
+.section-3-description {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.all-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    height: 250px;
+    width: 300px;
+    background-color: rgba(165, 42, 42, 0.288);
+    border-radius: 7px;
+    padding: 25px;
+    text-align: justify;
+}
+
+.color-1 {
+    background-color: rgba(135, 207, 235, 0.164);
+}
+
+.color-2 {
+    background-color: rgba(255, 166, 0, 0.158);
+}
+
+.color-3 {
+    background-color: rgba(255, 192, 203, 0.247);
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.card-description {
+    font-size: 20px;
+}
+
+.section-4Container {
+    text-align: center;
+}
+
+.section-4allItem {
+    height: 600px;
+    width: 1220px;
+    background-color: rgba(250, 235, 215, 0.486);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.section-4-title {
+    padding-top: 30px;
+}
+
+#section-4-description {
+    font-size: 20px;
+    margin: 20px 200px 0px 200px;
+}
+
+.section-4-image-btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-4-image-btn img {
+    height: 400px;
+    width: 550px;
+}
+
+.twitter-button {
+    height: 60px;
+    width: 250px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    border-radius: 10px;
+    background-image: url(images/twitter.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60px;
+    background-color: white;
+}
+
+.twitter-button:hover {
+    background-color: rgba(66, 103, 178, 0.349);
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.facebook-button {
+    height: 60px;
+    width: 250px;
+    font-size: 22px;
+    border-radius: 10px;
+    background-image: url(images/fb.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 55px;
+    background-color: white;
+}
+
+.facebook-button:hover {
+    background-color: rgba(245, 140, 41, 0.493);
+    border: 1px solid orange;
+    cursor: pointer;
+}
+
+.section-5 {
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5Allitem {
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.section-5-title {
+    margin-bottom: 10px;
+}
+
+.section-5Description {
+    font-size: 20px;
+    margin: 30px 30px 50px 30px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(165, 42, 42, 0.123);
+}
+
+.email-subscribeButton {
+    height: 180px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+#email-button {
+    height: 50px;
+    width: 300px;
+    border: none;
+    margin-top: 8%;
+    padding-left: 20px;
+    background-color: rgba(128, 128, 128, 0.473);
+}
+
+#subscribe-button {
+    height: 50px;
+    width: 100px;
+    border: none;
+    margin-top: 8%;
+    background-color: rgb(255, 115, 0);
+}
+
+#subscribe-btn:hover {
+    color: white;
+    background-color: rgba(255, 115, 0, 0.781);
+}
+
+footer {
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(223, 87, 87);
+    color: black;
+}
+
+footer h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+footer h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+footer p {
+
+    text-align: center;
+}
